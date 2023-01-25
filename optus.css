@@ -1,0 +1,317 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/************container 1************/
+
+.container1{
+    background-color: #00828e;
+    width: 100%;
+    height: 300px;
+    padding-bottom: 1em;
+    padding-top: 3em;
+}
+
+.whitediv{
+    position: absolute;
+    background-color: white;
+    height: 80px;
+    margin-left: 220px;
+    margin-top: -2em;
+    margin-bottom: 5px;
+}
+
+.WDup{
+    display: flex;
+    gap: 20px;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-top: 6px;
+}
+
+.WDup a{
+    font-size: 18px;
+}
+
+.WDdown{
+    display: flex;
+    gap: 20px;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-top: 6px;
+}
+
+.WDdown a{
+    font-size: 15px;
+}
+
+
+.optus{
+    color: #00828e;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.Ticons{
+    display: flex;
+    gap: .5em;
+    font-size: 18px;
+    margin-left: 2em;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: .4em;
+    text-decoration: none;
+}
+
+.icons :hover{
+    text-decoration: underline;
+}
+
+/*****.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    margin-left: 40px;
+}******/
+
+
+
+.line{
+    width: 100%;
+    border: .1px solid rgba(0, 0, 0, .25);
+    margin-top: .5em;
+}
+
+.whitediv a{
+    text-decoration: none;
+    color: black;
+}
+
+.mobile{
+    color: white;
+    margin-top: 6em;
+    text-align: center;   
+}
+
+.m{
+    font-size: 60px;
+}
+
+.space{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+
+/**********container 2*********/
+
+.container2{
+    margin-top: 15px;
+}
+
+.lma{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2em;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+
+.lma a{
+    text-decoration: none;
+    color: black;
+}
+
+/*************container 3*************/
+
+.container3{
+    margin-top: 35px;
+}
+
+.mcol{
+    display: flex;
+    flex-direction: row;
+    margin-left: 11em;
+    margin-right: 5em;
+}
+
+.mdiv-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box; 
+}
+
+.mdiv-col img{
+    width: 100%;
+}
+
+.mdiv-col h1{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 35px;
+}
+
+.mdiv-col p{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.mdiv-col a{
+    margin-top: 50px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+    line-height: 4;
+}
+
+.dm {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 16px;
+    background: #FEDB39;
+    padding: 10px 80px 10px 80px;
+    text-decoration: none;
+  }
+  
+  .dm:hover {
+    background: #FBDF07;
+    text-decoration: none;
+  }
+
+  .linee{
+    border: .1px solid rgba(0, 0, 0, .25);
+  }
+
+  .linkimg{
+    margin-top: -3em;
+    margin-left: 11em;
+  }
+
+  /***********container 4************/
+
+  .container4{
+    margin-top: 35px;
+}
+
+.mcol4{
+    display: flex;
+    flex-direction: row;
+    margin-left: 11em;
+    margin-right: 5em;
+}
+
+.mdiv-col4{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box; 
+}
+
+.mdiv-col4 img{
+    width: 100%;
+}
+
+.mdiv-col4 h1{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 35px;
+}
+
+.mdiv-col4 p{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.mdiv-col4 a{
+    margin-top: 50px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+    line-height: 4;
+}
+
+.dm4 {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 16px;
+    background: #FEDB39;
+    padding: 10px 80px 10px 80px;
+    text-decoration: none;
+  }
+  
+  .dm4:hover {
+    background: #FBDF07;
+    text-decoration: none;
+  }
+
+
+/***********section 5***********/
+
+
+.sect5{
+    margin-top: -50px;
+    background-color: #f1f4f6;
+    height: 300px;
+}
+
+.sect5 h1{
+    color: #00828e;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.opt{
+    margin-top: 2em;
+    display: flex;
+    
+}
+
+.opt-col{
+    width: 80%;
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.opt-col h2{
+    color: rgb(0, 50, 58);
+    font-weight: bolder;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.span{
+    color: rgb(0, 130, 142);
+}
+
+.opt-col p{
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+
+
+
+
+
+
+
+
+
+
